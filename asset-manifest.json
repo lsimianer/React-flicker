@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-flicker/static/css/main.ac742d11.chunk.css",
+    "main.js": "/React-flicker/static/js/main.48057385.chunk.js",
+    "main.js.map": "/React-flicker/static/js/main.48057385.chunk.js.map",
+    "runtime~main.js": "/React-flicker/static/js/runtime~main.d1b55718.js",
+    "runtime~main.js.map": "/React-flicker/static/js/runtime~main.d1b55718.js.map",
+    "static/js/2.149e1c73.chunk.js": "/React-flicker/static/js/2.149e1c73.chunk.js",
+    "static/js/2.149e1c73.chunk.js.map": "/React-flicker/static/js/2.149e1c73.chunk.js.map",
+    "index.html": "/React-flicker/index.html",
+    "precache-manifest.4165f7cf170858b946b19f6a02b4491a.js": "/React-flicker/precache-manifest.4165f7cf170858b946b19f6a02b4491a.js",
+    "service-worker.js": "/React-flicker/service-worker.js",
+    "static/css/main.ac742d11.chunk.css.map": "/React-flicker/static/css/main.ac742d11.chunk.css.map"
+  }
+}
