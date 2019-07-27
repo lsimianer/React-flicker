@@ -5,11 +5,11 @@ import { useGesture } from 'react-use-gesture'
 import './style.css'
 
 const clippings = [
-'./images/britain.jpg',
-'./images/glenn.jpg',
-'./images/marketL.jpg',
-'./images/singapore.jpg',
-'./images/ww2over.jpg',
+'../images/britain.jpg',
+'../images/glenn.jpg',
+'../images/marketL.jpg',
+'../images/singapore.jpg',
+'../images/ww2over.jpg',
 ]
 
 // helpers that will be interpolated into CSS, unsure how this works, but they curate the spring data and values
