@@ -36,7 +36,6 @@ body {
 }
 
 #root > div > div {
-  background-image: url(./images/britain.jpg);
   background-color: rgb(141, 13, 13);
   background-size: auto 85%;
   background-repeat: no-repeat;

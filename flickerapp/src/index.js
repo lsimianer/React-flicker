@@ -4,13 +4,26 @@ import { useSprings, animated, interpolate } from 'react-spring'
 import { useGesture } from 'react-use-gesture'
 import './style.css'
 
+// const clipStyle = {
+//     width: '20%',
+//     height: '50%',
+// };
+
+
+
+
 const clippings = [
-'../images/britain.jpg',
-'../images/glenn.jpg',
-'../images/marketL.jpg',
-'../images/singapore.jpg',
-'../images/ww2over.jpg',
+    'https://www.pngkey.com/png/detail/269-2693201_mysql-logo-circle-png.png',
+    'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png',
+    'https://i2.wp.com/www.nuimedia.com/wp-content/uploads/2017/01/javascript-logo.png?ssl=1',
+    'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/51783668_624747524633305_1517964892651388928_n.jpg?_nc_cat=105&_nc_oc=AQlKGViN--1mlC_ir1dTjqEX86WJMSATPnFD3UIxWf82PVtcRK3qN0YHq4wj_dZwYls&_nc_ht=scontent-dfw5-2.xx&oh=e2d0d856774f9d0533991bfe105a2331&oe=5DE65C6E',
+    'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52402692_629682597473131_8333908735332188160_n.jpg?_nc_cat=109&_nc_oc=AQlEN7BN-niZgczry1vDz-t3cZUDM9fZSs8PiKcxjMf6_shaMSkzH5NhNohbkQekRMo&_nc_ht=scontent-dfw5-2.xx&oh=f9eeb060e366d842ac65df8c1879cb32&oe=5DA614E9',
+    'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/66199285_715295575578499_2785559636059619328_n.jpg?_nc_cat=101&_nc_oc=AQmSPD0tXSiAqF0fK0W1OBCpqFnzCheBpaRPK7RPp-b8_qfx4DDUsPSB8Knrcmt4fms&_nc_ht=scontent-dfw5-2.xx&oh=a126fc4fdc1124f25f5982515806f58a&oe=5DE0F1FA',
+    'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/41704052_542723766169015_500452600101994496_n.jpg?_nc_cat=107&_nc_oc=AQk5vdZa78JiMDufMiCzJeNT6-BZwHu1BZHbfcRjcWkcXDhWphwkMd8BpZ3-sPSHnaA&_nc_ht=scontent-dfw5-2.xx&oh=8d9361cc50fba786a11bfb8e1ca00ff2&oe=5DE0EC21',
+    'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/54517835_643111022796955_2272656935083835392_n.jpg?_nc_cat=102&_nc_oc=AQkfagT-ZYR-87Qp8-YgFrtfCDXZDG9HZ7UhNBc5UIs6NcUETx4FrZiek_rR2dwiR9s&_nc_ht=scontent-dfw5-2.xx&oh=b1727f58a0c17eefd9ecb973ad0aef70&oe=5DA9048D',
 ]
+
 
 // helpers that will be interpolated into CSS, unsure how this works, but they curate the spring data and values
 const to = i => ({ x: 0, y: i * -4, scale: 1, rot: -10 + Math.random() * 20, delay: i * 100})
