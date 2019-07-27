@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 html,
 body {
   overscroll-behavior-y: contain;
@@ -17,7 +18,7 @@ body {
 }
 
 #root {
-  background: rgb(4, 187, 95);
+  background: rgb(1, 22, 0);
   position: fixed;
   overflow: hidden;
   width: 100%;
@@ -36,8 +37,8 @@ body {
 }
 
 #root > div > div {
-  background-color: rgb(141, 13, 13);
-  background-size: auto 85%;
+  background-color: rgb(12, 12, 12);
+  background-size: auto 60%;
   background-repeat: no-repeat;
   background-position: center center;
   width: 45vh;
@@ -46,5 +47,5 @@ body {
   max-height: 570px;
   will-change: transform;
   border-radius: 10px;
-  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
+  box-shadow: 0 12.5px 100px -10px rgba(146, 156, 1, 0.219), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
 }
