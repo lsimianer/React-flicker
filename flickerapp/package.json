@@ -4,7 +4,7 @@
   "homepage": "http://lsimianer.github.io/React-flicker",
   "private": false,
   "dependencies": {
-    "lodash-es": "4.17.11",
+    "lodash-es": "4.17.21",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-scripts": "3.0.1",
